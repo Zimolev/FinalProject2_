@@ -23,7 +23,6 @@ public class Main {
 
                 Menu.showMainMenu();
                 try (
-
                         Scanner sc = new Scanner(System.in)) {
                     int i = sc.nextInt();
                     switch (i) {
@@ -49,5 +48,4 @@ public class Main {
             System.out.println("Try one more time");
         }
     }
-
 }

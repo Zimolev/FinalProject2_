@@ -9,14 +9,6 @@ public class Beast extends Animal implements Employable {
         this.loadCapacity = loadCapacity;
     }
 
-    public int getLoadCapacity(){
-        return loadCapacity;
-    }
-
-    public void setLoadCapacity(int loadCapacity){
-        this.loadCapacity = loadCapacity;
-    }
-
     @Override
     public void employ() {
     }

@@ -31,7 +31,6 @@ public class Menu {
                 break;
         }
     }
-
     public static void Comand(){
         System.out.println("Выберите тип животных: \n" +
                 "1. Домашние\n" +

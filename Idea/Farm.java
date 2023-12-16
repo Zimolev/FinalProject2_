@@ -47,7 +47,7 @@ public class Farm<T> {
         for (T animal :
                 animals) {
             if (choiseClass.isInstance(animal)) {
-                System.out.println(animal.toString());
+                System.out.println(animal);
             }
         }
     }

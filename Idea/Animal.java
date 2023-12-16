@@ -15,10 +15,6 @@ public class Animal {
         return id;
     }
 
-    public int setId(int id) {
-        return this.id = id;
-    }
-
     public String getName() {
         return name;
     }
